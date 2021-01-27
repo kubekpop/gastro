@@ -1,0 +1,24 @@
+<html>
+    <head>
+<link rel="stylesheet" href="css/main.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#register").click(function(){
+		window.parent.setFrame('register.html');
+	  });
+});
+</script>
+</head>
+<body>
+<form action="login.php" method="post">
+	<table>
+		<tr><td>E-mail:</td><td><input class="css-input" type="text" name="email"></td></tr>
+		<tr><td>Hasło:</td><td><input class="css-input" type="password" name="password"></td></tr>
+	</table>
+	<input type="submit" value="Zaloguj" class="btn" /><br />
+	Nie masz konta? <button id="register" class="btn">ZAREJESTRUJ</button>
+</form>
+</body>
+</html>

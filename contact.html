@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="css/main.css">
+
+
+<h2>Formularz kontaktowy</h2>
+<form action="contact.php" method="post">
+    <table>
+        <tr><td>Imię:</td><td><input class="css-input" type="text" name="imie" required /></td></tr> 
+        <tr><td>E-mail:</td><td><input class="css-input" type="email" name="email" required /></td></tr> 
+        <tr><td>Treść zapytania:</td><td><input class="css-input" type="textarea" name="zapytanie" required /></td></tr> 
+        <tr><td>Chcę otrzymać kontakt zwrotny (*)</td><td><input type="checkbox" name="feedback" /></td></tr> 
+    </table>
+    <input class="btn" type="submit" value="Zarejestruj" />
+</form>
