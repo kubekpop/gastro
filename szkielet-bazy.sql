@@ -94,7 +94,7 @@ INSERT INTO `Oferta` (`ID`, `Nazwa`, `Kategoria`, `Cena`, `Typ`, `Obrazek`) VALU
 (2, 'Przygotowanie sali na melanżyk', 'usluga', 100, 'Usluga', 'img/sala.jpg'),
 (3, 'Sernik', 'desery', 7, 'Produkt', 'img/sernik.jpg'),
 (4, 'Barszcz czerwony', 'dania_cieple', 15, 'Produkt', 'img/barszcz.jpg'),
-(5, 'Schabowy a\'la WWSI (czyli taki se)', 'dania_cieple', 20, 'Produkt', 'img/schabowy.jpg'),
+(5, 'Schabowy a\'la WWSI', 'dania_cieple', 20, 'Produkt', 'img/schabowy.jpg'),
 (6, 'Spaghetti aglio olio', 'dania_cieple', 25, 'Produkt', 'img/aglioolio.jpg'),
 (7, 'Pizza', 'dania_cieple', 15, 'Produkt', 'img/pizza.jpg'),
 (8, 'Zupa na ostro', 'dania_cieple', 5, 'Produkt', 'img/zupa.jpg'),
